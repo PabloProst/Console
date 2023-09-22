@@ -84,7 +84,7 @@ body::after {
 
     height: 0.65em;
     width: 0.6em;
-    background-color: rgba(201, 46, 46, 0.797);
+    background-color: rgba(143, 121, 121, 0.797);
     border-radius: 50%;
     top: 2em;
     left: 0rem;
@@ -119,6 +119,8 @@ body::after {
     margin-bottom: 21em;
     box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
     top: -4em;
+    background-size: 149%;
+    background-position-x: -3.1em;
 }
 
 /* FLECHITAS */
@@ -376,6 +378,13 @@ background-color: black;
 top: -8.285em;
 left: 1.3em;
 border-radius: 15%;
+
+}
+
+
+.botonpower:hover {
+
+    cursor: pointer;
 
 }
 
