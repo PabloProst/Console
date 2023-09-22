@@ -10,10 +10,10 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-image: url(../img/fondomario.png);
+    background-image: url(../img/pokemon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -13em;
+    background-position-y: -16em;
 
 }
 
@@ -32,65 +32,59 @@ body::after {
     height: 29.3em;
     width: 19.3em;
     background-color: black;
-    border-radius: 0em 0em 3.4em 0em;
+    border-radius: 20% 20% 49% 49% / 2% 2% 6.5% 6.5%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
+
 
 }
 
 
 .contornoconsola {
 
-    height: 36em;
+    height: 45em;
     width: 24em;
-    background-color: #d8c70c;
-    border-radius: 1em 1em 4em 4em;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, rgba(0, 0, 0, 0.4) 20px 20px, rgba(0, 0, 0, 0.3) 15px 15px, rgba(0, 0, 0, 0.2) 20px 20px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+    background-color: #FED81F;
+    border-radius: 20% 20% 49% 49% / 2% 2% 6.5% 6.5%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 20px 0px inset, rgba(0, 0, 0, 0.15) 0px -20px 30px 0px inset, rgba(0, 0, 0, 0.1) 100px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, rgba(0, 0, 0, 0.4) 20px 20px, rgba(0, 0, 0, 0.3) 15px 15px, rgba(0, 0, 0, 0.2) 20px 20px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 35px 30px;
+
 }
 
-.nintendo{
-    width: 5.5em;
-    height: 1.2em;
+.nintendo {
+    width: 6.7em;
+    height: 1.4em;
     border-radius: 1em;
-    border: 0.15em solid #B3A219;
+    border: 0.15em solid #b3a119e0;
     text-align: center;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
-    color:#B3A219;
+    color: #b3a119e0;
 }
 
 .marcodepantalla {
 
-    height: 14.7em;
+    height: 19em;
     width: 22em;
     background-color: black;
     margin-bottom: 19em;
-    border-radius: 5%;
+    border-radius: 20% 20% 49% 49% / 2% 2% 6.5% 6.5%;
     position: absolute;
     background-image: url(../img/logogameboy.png);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 97%;
+    background-position-y: 93%;
     background-size: 50%;
+    top: -6em;
 }
 
-.curvapantalla {
-
-    width: 22em;
-    background-color: black;
-    height: 1.5em;
-    border-radius: 0em 0em 50% 50%;
-    top: 12em;
-
-}
 
 .ledapagado {
 
     height: 0.65em;
     width: 0.6em;
-    background-color: rgb(201, 46, 46);
+    background-color: rgba(201, 46, 46, 0.797);
     border-radius: 50%;
     top: 2em;
     left: 0rem;
@@ -117,14 +111,14 @@ body::after {
 
 .pantalla {
 
-    height: 10em;
+    height: 13em;
     width: 13em;
     background-color: #66664D;
     border: solid 1px black;
     position: absolute;
     margin-bottom: 21em;
     box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
-
+    top: -4em;
 }
 
 /* FLECHITAS */
@@ -148,12 +142,13 @@ div {
     position: absolute;
     height: 9em;
     margin: auto;
-    top: -5em;
+    top: 3.5em;
     bottom: 0;
     left: -1em;
     right: 0;
     filter: drop-shadow(3px 3px 3px #777);
     scale: 1.4;
+    
 }
 
 .center {
@@ -181,27 +176,52 @@ div {
     border: 1px solid #272727;
     margin-top: 90px;
     scale: .45;
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
 .right {
     top: 2em;
     left: -2.70em;
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
 .left {
     top: 2em;
     right: 5.3em;
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
 .down {
     top: 3.3em;
     left: -4em;
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
 .up {
 
     left: -4em;
     top: 0.7em;
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 
 }
 
@@ -209,6 +229,11 @@ div {
 
     left: -4em;
     top: 2em;
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 
 }
 
@@ -280,9 +305,13 @@ div {
     width: 3em;
     background-color: rgb(44, 44, 44);
     border-radius: 50%;
-    top: 19em;
+    top: 24em;
     right: 4em;
-
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
 
@@ -292,10 +321,15 @@ div {
     width: 3em;
     background-color: rgb(44, 44, 44);
     border-radius: 50%;
-    top: 17em;
+    top: 21em;
     right: 0em;
-
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
+
 
 
 .botonselect {
@@ -306,33 +340,13 @@ div {
     background-color: rgb(44, 44, 44);
     border-radius: 10px;
     border: solid 1px black;
-    box-shadow: 0em 0.1em 1em rgba(20, 20, 20, 0.6);
-    top: 27em;
+    top: 32em;
     left: 6.5em;
-
-}
-
-.fondobotonselect {
-
-height: 20px;
-width: 39px;
-border: solid 1px gray;
-border-radius: 10px;
-top: 26.86em;
-left: 6.39em;
-position: absolute;
-
-}
-.fondobotonstart {
-
-height: 20px;
-width: 39px;
-border: solid 1px gray;
-border-radius: 10px;
-top: 26.86em;
-left: 10.9em;
-position: absolute;
-
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
 
@@ -341,88 +355,38 @@ position: absolute;
     position: absolute;
     height: 15px;
     width: 35px;
-    background-color: rgb(44,44 ,44 );
+    background-color: rgb(44, 44, 44);
     border-radius: 10px;
     border: solid 1px black;
-    box-shadow: 0em 0.1em 1em rgba(0, 0, 0, 0.6);
-    top: 27em;
+    top: 32em;
     left: 11em;
-
-
+    box-shadow:
+    inset 3px 5px 5px -1px rgb(255 255 255 / 50%), 
+    inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
+    1px 1px 1px 2px rgb(0 0 0 / 80%),
+    2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
-/* START y SELECT */
 
-.select {
 
-    font-size: 8px;
-    color: rgb(92, 92, 92);
-    position: absolute;
-    font-family: fantasy;
-    top: 52em;
-    left: 11.6em;
+/* PIKACHU */
 
+.pikachu {
+
+height: 4em;
+width: 4em;
+background-image: url(../img/pikachu3.png);
+background-size: cover;
+top: 17em;
 }
 
-.start {
+.pikachutop {
 
-    font-size: 8px;
-    color: rgb(92, 92, 92);
-    position: absolute;
-    font-family: fantasy;
-    top: 52em;
-    left: 24em;
-
-}
-
-/* PARLANTES */
-
-
-
-
-/* CARTUCHO */
-
-.cartucho {
-
-    height: 6em;
-    width: 6em;
-    position: absolute;
-    background-color: rgb(90, 89, 89);
-    right: -13em;
-    top: 9em;
-    border: solid 1.5px black;
-}
-
-.fotocartucho {
-
-    background-image: url("/img/cartucho.png");
-    background-size: cover;
-    scale: 1.7;
-    right: -11.5em;
-    top: 10.5em;
-    border: solid 1px white;
-
-}
-
-.topcartucho {
-
-    height: 1em;
-    width: 6em;
-    background-color: rgb(90, 89, 89);
-    right: -13em;
-    top: 8.3em;
-    border-top-right-radius: 45%;
-    border: solid 1px black;
-
-}
-
-.sombracartucho {
-
-    height: 0.5em;
-    width: 5em;
-    background-color: rgb(78, 77, 77);
-    right: -12.4em;
-    top: 8.6em;
-    border-radius: 25%;
+background-image: url(../img/pikachuhello.png);
+height: 4em;
+width: 4em;
+background-size: cover;
+top: -11.8em;
+right: 7.3em;
 
 }
