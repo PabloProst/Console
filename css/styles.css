@@ -48,7 +48,7 @@ body::after {
     width: 25em;
     background-color: #FED81F;
     border-radius: 20% 20% 49% 49% / 2% 2% 6.5% 6.5%;
-    box-shadow: rgba(0, 0, 0, 0.17) -70px -70px 20px -70px inset, rgba(0, 0, 0, 0.15) 0px -20px 30px 0px inset, rgba(0, 0, 0, 0.1) 100px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, rgba(0, 0, 0, 0.4) 20px 20px, rgba(0, 0, 0, 0.3) 15px 15px, rgba(0, 0, 0, 0.2) 20px 20px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 35px 30px;
+    box-shadow: rgba(0, 0, 0, 0.17) -70px -70px 20px -70px inset, rgba(0, 0, 0, 0.15) 0px -20px 30px 0px inset, rgba(0, 0, 0, 0.1) 100px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, rgba(0, 0, 0, 0.4) 20px 20px, rgba(0, 0, 0, 0.3) 15px 15px, rgba(0, 0, 0, 0.2) 20px 20px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 35px 30px, 20px 12px 5px rgb(0, 0, 0);
     border: solid 2px black;
 }
 
@@ -113,15 +113,12 @@ body::after {
 .pantalla {
 
     height: 13em;
-    width: 13em;
+    width: 15em;
     background-color: #66664D;
-    border: solid 1px black;
-    position: absolute;
-    margin-bottom: 21em;
     box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
-    top: -4em;
-    background-size: 149%;
-    background-position-x: -3.1em;
+    top: -3em;
+    left: 3em;
+
 }
 
 /* FLECHITAS */
@@ -373,12 +370,12 @@ div {
 
 .botonpower {
 
-height: 0.5em;
-width: 2em;
-background-color: black;
-top: -6.79em;
-left: 1.3em;
-border-radius: 15%;
+    height: 0.5em;
+    width: 2em;
+    background-color: black;
+    top: -6.79em;
+    left: 1.3em;
+    border-radius: 15%;
 
 }
 
@@ -467,3 +464,120 @@ border-radius: 15%;
 }
 
 
+.botonselect:hover{
+
+    cursor: pointer;
+}
+
+.botonstart:hover{
+
+    cursor: pointer;
+}
+
+.wrapper:hover{
+
+cursor: pointer;
+
+}
+
+.boton1:hover{
+
+cursor: pointer;
+
+}
+
+.boton2:hover{
+
+cursor: pointer;
+
+}
+
+.boton1:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+.boton2:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+.up:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+.left:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+
+  }
+
+
+.right:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+.down:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+.center:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+.botonstart:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+.botonselect:active {
+    background: #3c3b3b;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+
+.botonpower:active {
+    background: #000000;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }

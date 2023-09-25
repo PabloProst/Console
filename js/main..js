@@ -45,9 +45,42 @@ document.addEventListener("click", (e) =>{
 if (e.target.id === 'startboton') {
 
 pantalla.style.background = "url('img/ruby.gif')";
+encendido.style.backgroundColor = ('#FF0000');
 
 
 }
 
+
+});
+
+
+ /* BATALLA */
+
+let batalla = document.getElementById("nintendoscreen");
+
+document.addEventListener("click", (e) =>{
+
+if (e.target.id === 'botona') {
+
+pantalla.style.background = "url('img/battle.gif')";
+encendido.style.backgroundColor = ('#FF0000');
+
+}
+
+});
+
+
+/* APAGAR */
+
+let apagar = document.getElementById("nintendoscreen");
+
+document.addEventListener("click", (e) =>{
+
+if (e.target.id === 'selectboton') {
+
+encendido.style.backgroundColor = ('rgba(143, 121, 121, 0.797)');
+pantalla.style.background = ('#66664D');
+
+}
 
 });
