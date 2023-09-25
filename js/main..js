@@ -35,6 +35,16 @@ powerboton.addEventListener('click', () => {
 
 });
 
+/* SONIDO PANTALLA DE INICIO */
+
+let soundstart = new Audio('sounds/pokemonsong.mp3');
+
+startboton.addEventListener('click', () => {
+
+    soundstart.play();
+});
+
+
 
 /* POKEMON RUBY */
 
