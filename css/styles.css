@@ -44,12 +44,12 @@ body::after {
 
 .contornoconsola {
 
-    height: 45em;
-    width: 24em;
+    height: 42em;
+    width: 25em;
     background-color: #FED81F;
     border-radius: 20% 20% 49% 49% / 2% 2% 6.5% 6.5%;
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -15px 20px 0px inset, rgba(0, 0, 0, 0.15) 0px -20px 30px 0px inset, rgba(0, 0, 0, 0.1) 100px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, rgba(0, 0, 0, 0.4) 20px 20px, rgba(0, 0, 0, 0.3) 15px 15px, rgba(0, 0, 0, 0.2) 20px 20px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 35px 30px;
-
+    box-shadow: rgba(0, 0, 0, 0.17) -70px -70px 20px -70px inset, rgba(0, 0, 0, 0.15) 0px -20px 30px 0px inset, rgba(0, 0, 0, 0.1) 100px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px, rgba(0, 0, 0, 0.4) 20px 20px, rgba(0, 0, 0, 0.3) 15px 15px, rgba(0, 0, 0, 0.2) 20px 20px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 35px 30px;
+    border: solid 2px black;
 }
 
 .nintendo {
@@ -61,6 +61,7 @@ body::after {
     font-family: sans-serif;
     font-weight: bold;
     color: #b3a119e0;
+    top: 15em;
 }
 
 .marcodepantalla {
@@ -76,7 +77,7 @@ body::after {
     background-position-x: center;
     background-position-y: 93%;
     background-size: 50%;
-    top: -6em;
+    top: -5em;
 }
 
 
@@ -144,12 +145,12 @@ div {
     position: absolute;
     height: 9em;
     margin: auto;
-    top: 3.5em;
+    top: -2em;
     bottom: 0;
-    left: -1em;
+    left: 1em;
     right: 0;
     filter: drop-shadow(3px 3px 3px #777);
-    scale: 1.4;
+    scale: 1.7;
 
 }
 
@@ -303,11 +304,11 @@ div {
 
 .boton1 {
 
-    height: 3em;
-    width: 3em;
+    height: 3.5em;
+    width: 3.5em;
     background-color: rgb(44, 44, 44);
     border-radius: 50%;
-    top: 24em;
+    top: 21em;
     right: 4em;
     box-shadow:
         inset 3px 5px 5px -1px rgb(255 255 255 / 50%),
@@ -319,11 +320,11 @@ div {
 
 .boton2 {
 
-    height: 3em;
-    width: 3em;
+    height: 3.5em;
+    width: 3.5em;
     background-color: rgb(44, 44, 44);
     border-radius: 50%;
-    top: 21em;
+    top: 18em;
     right: 0em;
     box-shadow:
         inset 3px 5px 5px -1px rgb(255 255 255 / 50%),
@@ -337,8 +338,8 @@ div {
 .botonselect {
 
     position: absolute;
-    height: 15px;
-    width: 35px;
+    height: 20px;
+    width: 40px;
     background-color: rgb(44, 44, 44);
     border-radius: 10px;
     border: solid 1px black;
@@ -355,8 +356,8 @@ div {
 .botonstart {
 
     position: absolute;
-    height: 15px;
-    width: 35px;
+    height: 20px;
+    width: 40px;
     background-color: rgb(44, 44, 44);
     border-radius: 10px;
     border: solid 1px black;
@@ -375,7 +376,7 @@ div {
 height: 0.5em;
 width: 2em;
 background-color: black;
-top: -8.285em;
+top: -6.79em;
 left: 1.3em;
 border-radius: 15%;
 
@@ -397,7 +398,7 @@ border-radius: 15%;
     width: 4em;
     background-image: url(../img/pikachu3.png);
     background-size: cover;
-    top: 17em;
+    top: 18em;
 }
 
 
@@ -417,8 +418,8 @@ border-radius: 15%;
     position: absolute;
     right: 16px;
     width: 100px;
-    top: 30em;
-    right: -2.5em;
+    top: 29em;
+    right: -2.9em;
 
 
 }
@@ -444,8 +445,8 @@ border-radius: 15%;
     position: absolute;
     right: 16px;
     width: 100px;
-    top: 30em;
-    right: -1.3em;
+    top: 29em;
+    right: -1.6em;
 
 
 }

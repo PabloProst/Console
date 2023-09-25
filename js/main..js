@@ -3,25 +3,25 @@
 let pantalla = document.getElementById("nintendoscreen");
 
 
-document.addEventListener("click", (e)=>{
+document.addEventListener("click", (e) => {
 
 
-    if(e.target.id === 'powerboton'){
+    if (e.target.id === 'powerboton') {
 
 
         pantalla.style.backgroundImage = "url('img/intro.gif')";
-    
 
-    } 
-    
+    }
+
+
 
 });
 
 /* SONIDO DE ENCENDIDO */
 
-let sound = new Audio('../sounds/on.mp3');
+let sound = new Audio('sounds/on.mp3');
 
-powerboton.addEventListener('click', ()=>{
+powerboton.addEventListener('click', () => {
 
     sound.play();
 });
@@ -29,8 +29,25 @@ powerboton.addEventListener('click', ()=>{
 
 let encendido = document.getElementById("ledoff");
 
-powerboton.addEventListener('click', ()=>{
+powerboton.addEventListener('click', () => {
 
-encendido.style.backgroundColor = ('#FF0000');
+    encendido.style.backgroundColor = ('#FF0000');
+
+});
+
+
+/* POKEMON RUBY */
+
+let ruby = document.getElementById("nintendoscreen");
+
+document.addEventListener("click", (e) =>{
+
+if (e.target.id === 'startboton') {
+
+pantalla.style.background = "url('img/ruby.gif')";
+
+
+}
+
 
 });
