@@ -1,11 +1,8 @@
 body {
-
     margin: 0;
     padding: 0;
-
     height: 100vh;
     width: 100vw;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +11,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -16em;
-
 }
 
 body::after {
@@ -26,9 +22,7 @@ body::after {
     height: 100%;
 }
 
-
 .containerprincipal {
-
     height: 29.3em;
     width: 19.3em;
     background-color: black;
@@ -37,13 +31,9 @@ body::after {
     justify-content: center;
     align-items: center;
     position: absolute;
-
-
 }
 
-
 .contornoconsola {
-
     height: 42em;
     width: 25em;
     background-color: #FED81F;
@@ -65,7 +55,6 @@ body::after {
 }
 
 .marcodepantalla {
-
     height: 19em;
     width: 22em;
     background-color: black;
@@ -80,18 +69,14 @@ body::after {
     top: -5em;
 }
 
-
 .ledapagado {
-
     height: 0.65em;
     width: 0.6em;
     background-color: rgba(143, 121, 121, 0.797);
     border-radius: 50%;
     top: 2em;
     left: 0rem;
-
 }
-
 
 .halfCircle {
     color: rgb(100, 97, 97);
@@ -108,27 +93,20 @@ body::after {
     left: 0.2em;
 }
 
-
-
 .pantalla {
-
     height: 13em;
     width: 15em;
     background-color: #66664D;
     box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(255, 255, 255, 0.3) 0px 18px 36px -18px inset;
     top: -3em;
     left: 3em;
-
 }
-
-/* FLECHITAS */
 
 *,
 *:before,
 *:after {
     box-sizing: border-box;
 }
-
 
 div {
     padding: 0;
@@ -148,7 +126,6 @@ div {
     right: 0;
     filter: drop-shadow(3px 3px 3px #777);
     scale: 1.7;
-
 }
 
 .center {
@@ -214,7 +191,6 @@ div {
 }
 
 .up {
-
     left: -4em;
     top: 0.7em;
     box-shadow:
@@ -222,11 +198,9 @@ div {
         inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
         1px 1px 1px 2px rgb(0 0 0 / 80%),
         2.5px 5px 5px 1px rgb(0 0 0 / 90%);
-
 }
 
 .center {
-
     left: -4em;
     top: 2em;
     box-shadow:
@@ -234,7 +208,6 @@ div {
         inset -3px -3px 5px -1px rgb(0 0 0 / 99%),
         1px 1px 1px 2px rgb(0 0 0 / 80%),
         2.5px 5px 5px 1px rgb(0 0 0 / 90%);
-
 }
 
 .up-triangle {
@@ -247,7 +220,6 @@ div {
     border-left: solid 15px transparent;
     border-right: solid 15px transparent;
     border-bottom: solid 20px #151414;
-
 }
 
 .right-triangle {
@@ -287,20 +259,13 @@ div {
     border-right: solid 15px transparent;
     border-bottom: solid 20px #151414;
     transform: rotate(-90deg);
-
 }
 
 .center-circle {
-
     background-color: #151414;
-
 }
 
-
-/* BOTONES */
-
 .boton1 {
-
     height: 3.5em;
     width: 3.5em;
     background-color: rgb(44, 44, 44);
@@ -316,7 +281,6 @@ div {
 
 
 .boton2 {
-
     height: 3.5em;
     width: 3.5em;
     background-color: rgb(44, 44, 44);
@@ -330,10 +294,7 @@ div {
         2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
-
-
 .botonselect {
-
     position: absolute;
     height: 20px;
     width: 40px;
@@ -349,9 +310,7 @@ div {
         2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
-
 .botonstart {
-
     position: absolute;
     height: 20px;
     width: 40px;
@@ -367,30 +326,20 @@ div {
         2.5px 5px 5px 1px rgb(0 0 0 / 90%);
 }
 
-
 .botonpower {
-
     height: 0.5em;
     width: 2em;
     background-color: black;
     top: -6.79em;
     left: 1.3em;
     border-radius: 15%;
-
 }
-
 
 .botonpower:hover {
-
     cursor: pointer;
-
 }
 
-
-/* PIKACHU */
-
 .pikachu {
-
     height: 4em;
     width: 4em;
     background-image: url(../img/pikachu3.png);
@@ -398,27 +347,18 @@ div {
     top: 18em;
 }
 
-
-/* PARLANTES */
-
-
 .containerdespeaker {
-
     height: 29em;
     width: 20em;
-
 }
 
 .speaker {
-
     height: 100px;
     position: absolute;
     right: 16px;
     width: 100px;
     top: 29em;
     right: -2.9em;
-
-
 }
 
 .speaker:before {
@@ -433,19 +373,15 @@ div {
     transform: skew(0deg, -12deg);
     transform: translate(-50%, -50%);
     width: 6px;
-
 }
 
 .speaker2 {
-
     height: 100px;
     position: absolute;
     right: 16px;
     width: 100px;
     top: 29em;
     right: -1.6em;
-
-
 }
 
 .speaker2:before {
@@ -460,36 +396,26 @@ div {
     transform: skew(0deg, -12deg);
     transform: translate(-50%, -50%);
     width: 6px;
-
 }
 
-
 .botonselect:hover{
-
     cursor: pointer;
 }
 
 .botonstart:hover{
-
     cursor: pointer;
 }
 
 .wrapper:hover{
-
 cursor: pointer;
-
 }
 
 .boton1:hover{
-
 cursor: pointer;
-
 }
 
 .boton2:hover{
-
 cursor: pointer;
-
 }
 
 .boton1:active {
@@ -500,7 +426,6 @@ cursor: pointer;
      outline: none;
   }
 
-
 .boton2:active {
     background: #3c3b3b;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
@@ -508,7 +433,6 @@ cursor: pointer;
             box-shadow: inset 0px 0px 5px #c1c1c1;
      outline: none;
   }
-
 
 .up:active {
     background: #3c3b3b;
@@ -518,16 +442,13 @@ cursor: pointer;
      outline: none;
   }
 
-
 .left:active {
     background: #3c3b3b;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
        -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
             box-shadow: inset 0px 0px 5px #c1c1c1;
      outline: none;
-
   }
-
 
 .right:active {
     background: #3c3b3b;
@@ -537,7 +458,6 @@ cursor: pointer;
      outline: none;
   }
 
-
 .down:active {
     background: #3c3b3b;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
@@ -545,7 +465,6 @@ cursor: pointer;
             box-shadow: inset 0px 0px 5px #c1c1c1;
      outline: none;
   }
-
 
 .center:active {
     background: #3c3b3b;
@@ -555,7 +474,6 @@ cursor: pointer;
      outline: none;
   }
 
-
 .botonstart:active {
     background: #3c3b3b;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
@@ -564,7 +482,6 @@ cursor: pointer;
      outline: none;
   }
 
-
 .botonselect:active {
     background: #3c3b3b;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
@@ -572,7 +489,6 @@ cursor: pointer;
             box-shadow: inset 0px 0px 5px #c1c1c1;
      outline: none;
   }
-
 
 .botonpower:active {
     background: #000000;
